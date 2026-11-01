@@ -12,3 +12,6 @@ captures/
 # 회사 서버 실행 데이터·배포 폴더 (운행기록·직원 명단이 들어감)
 server/data/
 dist/
+
+# APK 는 용량이 커서(100 MB 넘음) 저장소가 아니라 GitHub Releases 에 올림
+release/
