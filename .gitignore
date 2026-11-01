@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# 회사 서버 실행 데이터·배포 폴더 (운행기록·직원 명단이 들어감)
+server/data/
+dist/

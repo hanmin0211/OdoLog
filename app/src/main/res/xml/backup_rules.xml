@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 안드로이드 11 이하 자동 백업: 얼굴 특징값(생체정보)은 빼고 백업 -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="faces.xml" />
+</full-backup-content>

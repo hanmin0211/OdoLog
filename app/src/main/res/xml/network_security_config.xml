@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 암호화 안 된 통신(http)은 에뮬레이터에서 본 PC 주소(시연용 회사 서버)에만 허용. 그 밖은 https 만 -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>

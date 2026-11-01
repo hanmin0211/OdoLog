@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 얼굴 특징값(생체정보)은 차량 밖으로 나가지 않도록 클라우드 백업·기기 이전에서 뺌 -->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="sharedpref" path="faces.xml" />
+    </cloud-backup>
+    <device-transfer>
+        <exclude domain="sharedpref" path="faces.xml" />
+    </device-transfer>
+</data-extraction-rules>
